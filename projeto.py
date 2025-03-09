@@ -3,7 +3,7 @@ import mysql.connector
 # conectado ao banco de dados
 try:
     cn = mysql.connector.connect(
-        host='localhost', database='novo_projeto', user='root', password='11042006')
+        host='localhost', database='novo_projeto', user='root', password='xxxx')
 
     if cn.is_connected():
         print("conectado")
